@@ -18,7 +18,7 @@ public class Demo1 {
   @Test(groups = "run")
   @WebTest(protocol = SeleniumProtocol.WebDriver)
   public void test() {
-    // WebDriver protocol allow the webdriver API
+    //jinesh is testing // WebDriver protocol allow the webdriver API
     webdriver().get("http://www.ebay.co.uk");
     // but also the selenium legacy API
     selenium().open("http://google.com");
